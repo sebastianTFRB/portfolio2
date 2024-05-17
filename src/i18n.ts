@@ -12,14 +12,27 @@ i18n.use(initReactI18next).init({
       translation: {
         title: 'Multi-language app',
         hi: 'Hello',
-        description: 'Brief description about you and your skills.'
+        description: 'Hello, my name is Sebastian, I have experience in developing web applications, software deployment and software architecture, I want to learn more every day and have more experience within this infinite technological world.',
+        exp:'full Stack Developer',
+        exp_lenguaje:' Languages ​​in my domain',
+        sub_exp_lenguaje:' Languages ​​in my domain',
+        exp_tecnologies:'Thecnologias en mi dominio',
+        sub_exp_tecnologies:'Tecnologias en mi dominio'
+
+        
+        
       },
     },
     es: {
       translation: {
         title: 'Aplicación en varios idiomas',
         hi: 'Hola',
-        description: 'Breve descripción sobre ti y tus habilidades.'
+        description: 'hola mi nombre es sebastian ,tengo experiencia en el desarrollo de aplicaciones wep ,despliege de software y arquitectura de software  , quiero aprender cada dia mas y tener mas experiencia dentro de este infinito mundo tecnologico',
+        exp:'desarrollador de pila completa',
+        exp_lenguaje:'Lenguajes en mi dominio',
+        sub_exp_lenguaje:' Languages ​​in my domain',
+        exp_tecnologies:'Tecnologias en mi dominio',
+        sub_exp_tecnologies:'Tecnologias en mi dominio'
       },
     },
   },
