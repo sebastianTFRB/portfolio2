@@ -1,32 +1,32 @@
-
-import { FaLinkedin } from 'react-icons/fa'; //error por sitaxis (desaparece contenido)
-import { FaGithub } from 'react-icons/fa';
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
-
-
-
-
-
-
+import Navigation from './Navegation';
 
 
 const Navbar = () => {
   return (
-    <nav className=" mb-20 flex itmes-center justify-between py-6">
-      <div className="flex flex-shrink-0 items-center">
-        
-      </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
-        <FaInstagram/>
-        <FaSquareXTwitter/>
-
-      </div>
-   
+    <nav className="mb-20 flex items-center justify-between py-6">
+      <Navigation/>
     </nav>
   )
 }
 
 export default Navbar;
+
+
+/*<div className="flex flex-row gap-3 items-center">
+        <div className="relative">
+          { <Image
+            src="/horseLogo.jpg"
+            alt="logo"
+            width={40}
+            height={40}
+            className="w-full h-full object-contain rounded-full"
+          /> }
+        </div>
+        <h1 className="text-white text-[25px] font-semibold">
+          Webchain{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+            {" "}
+            Dev{" "}
+          </span>
+        </h1>
+      </div> */

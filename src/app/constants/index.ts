@@ -1,3 +1,4 @@
+import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 //importaciones screen projectos
 import project1 from "./../../assets/images/project-1.jpg";
 import project2 from "./../../assets/images/project-2.jpg";
@@ -208,3 +209,26 @@ export const LENGUAGES = [
 
   }
 ]
+export const NavLinks = [
+  {
+    name: "/",
+    icon: RxHome,
+    link: "/",
+  },
+  {
+    name: "/my-skills",
+    icon: RxPerson,
+    link: "/my-skills",
+  },
+  {
+    name: "/projectos",
+    icon: RxDashboard,
+    link: "/projectos",
+  },
+  {
+    name: "/contact-me",
+    icon: RxClipboard,
+    link: "/contact-me",
+  },
+];
+

@@ -1,5 +1,5 @@
 import Hero from '../components/Hero';
-import Navbar from '../components/Nav_bar';
+//import Navbar from '../components/Nav_bar';
 
 const Home_2 = () => {
     return (
@@ -10,7 +10,7 @@ const Home_2 = () => {
         </div>
   
         <div className='container mx-auto px-8'>
-        <Navbar />
+        
         <Hero />
         </div>
       </div>
@@ -18,4 +18,4 @@ const Home_2 = () => {
   };
   
   export default Home_2;
-  
+ // <Navbar />

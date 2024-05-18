@@ -1,5 +1,4 @@
 import Experience from './../components/Experience';
-import Navbar from '../components/Nav_bar';
 const  Experiencia= () => {
   return (
     <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
@@ -9,7 +8,6 @@ const  Experiencia= () => {
         </div>
   
         <div className='container mx-auto px-8'>
-        <Navbar />
         <Experience />
         
         </div>
