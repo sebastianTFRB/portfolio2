@@ -1,3 +1,6 @@
+import React from 'react';
+import { Youtube, Linkedin, Twitter, Rss, Twitch } from 'lucide-react';
+//importaciones de navigation 
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 //importaciones screen projectos
 import project1 from "./../../assets/images/project-1.jpg";
@@ -231,4 +234,3 @@ export const NavLinks = [
     link: "/contact-me",
   },
 ];
-
