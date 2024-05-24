@@ -12,16 +12,16 @@ import { OrangeImages, PurpleImages } from "./../constants";
 const Slider1 = () => {
   return (
     <div className="h-screen flex flex-col md:flex-row gap-5 items-center justify-center ">
-      <div className="flex flex-col gap-3 ">
-        <h1 className="text-white text-[50px] font-semibold">
-          My Work<span className="text-red-500">.</span>
+      <div className="flex flex-col gap-4 ">
+        <h1 className=" text-[70px] font-semibold">
+          <span className="text-purple-500">My Work.</span>
           <p className="text-[16px] max-w-[400px] text-gray-200 md:text-gray-400">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </h1>
       </div>
-      <div className="w-[70%] md:w-[40%]">
+      <div className="w-[40%] sm:w-[80%] md:w-[60%] lg:w-[60%] xl:w-[60%]">
         <Swiper
           breakpoints={{
             340: {
@@ -82,4 +82,3 @@ const Slider1 = () => {
 };
 
 export default Slider1;
-

@@ -1,31 +1,15 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { FreeMode, Pagination } from 'swiper/modules';
-import 'swiper/swiper-bundle.min.css';
-import { RxArrowRight } from 'react-icons/rx';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/free-mode";
+import { FreeMode, Pagination } from "swiper/modules";
+import { RxArrowRight } from "react-icons/rx";
+import { OrangeImages, PurpleImages } from "./../constants";
 
-interface Image {
-  src: string;
-}
-
-interface Slider1Props {
-  PurpleImages: Image[];
-  OrangeImages: Image[];
-}
-
-const Slider2: React.FC<Slider1Props> = ({ PurpleImages, OrangeImages }) => {
+const Slider2 = () => {
   return (
-    <div className="h-screen flex flex-col md:flex-row gap-5 items-center justify-center ">
-      <div className="flex flex-col gap-3 ">
-        <h1 className="text-white text-[50px] font-semibold">
-          My Work<span className="text-red-500">.</span>
-          <p className="text-[16px] max-w-[400px] text-gray-200 md:text-gray-400">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </h1>
-      </div>
-      <div className="w-[70%] md:w-[40%]">
+    <div className="h-screen flex flex-col md:flex-row gap-5 items-center justify-center">
+      <div className="w-full md:w-[40%] sm:w-[80%] md:w-[60%] lg:w-[60%] xl:w-[60%] md:order-2">
         <Swiper
           breakpoints={{
             340: {
@@ -80,6 +64,15 @@ const Slider2: React.FC<Slider1Props> = ({ PurpleImages, OrangeImages }) => {
             </div>
           </SwiperSlide>
         </Swiper>
+      </div>
+      <div className="w-full md:w-[60%] flex flex-col gap-4 md:order-1">
+        <h1 className="text-white text-[70px] font-semibold">
+          My Work<span className="text-red-500">.</span>
+          <p className="text-[16px] max-w-[400px] text-gray-200 md:text-gray-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </h1>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import Slider1 from "./../components/Sider1"
+import Slider2 from "./../components/Sider2"
 const About = () => {
     return (
       <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
@@ -9,6 +10,7 @@ const About = () => {
         <div className='container mx-auto px-8'>
         
         <Slider1 />
+        <Slider2 />
         </div>
       </div>
     );

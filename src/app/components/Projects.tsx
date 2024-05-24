@@ -6,7 +6,7 @@ const Projects = () => {
     <div className='border-b border-neutral-900 pb-4'>
       <div className='text-center'>
       <span className="bg-gradient-to-r from-blue-500 via-teal-400 to-green-300 bg-clip-text text-4xl font-bold border-b-4 border-gray-500 p-2 inline tracking-tight text-transparent">
-       Projects
+       My Projects
       </span>
       <p className='py-6'>These are the technologies I've worked with</p>
       </div>
