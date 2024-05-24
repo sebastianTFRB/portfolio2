@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
         </a>
         
         <a
-          href="/contact-me"
+          href="/contactame"
           className="rounded-[20px] group relative bg-blue-500 border border-white px-5 py-3 text-lg text-white"
         >
           <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />

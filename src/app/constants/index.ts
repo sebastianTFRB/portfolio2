@@ -1,7 +1,16 @@
 import React from 'react';
-import { Youtube, Linkedin, Twitter, Rss, Twitch } from 'lucide-react';
+//importaciones de slider 1
+import SpaceCity1 from "./../../assets/slider1/SpaceCity.jpg"
+import SpaceCity2 from "./../../assets/slider1/SpaceCity.jpg"
+import SpaceCity3 from "./../../assets/slider1/SpaceCity.jpg"
+import SpaceCity4 from "./../../assets/slider1/SpaceCity.jpg"
+import SpaceOrange1 from "./../../assets/slider1/planet1.png"
+import SpaceOrange2 from "./../../assets/slider1/planet1.png"
+import SpaceOrange3 from "./../../assets/slider1/planet1.png"
+import SpaceOrange4 from "./../../assets/slider1/planet1.png"
+
 //importaciones de navigation 
-import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
+import { RxHome, RxPerson, RxDashboard, RxClipboard,RxArchive } from "react-icons/rx";
 //importaciones screen projectos
 import project1 from "./../../assets/images/project-1.jpg";
 import project2 from "./../../assets/images/project-2.jpg";
@@ -219,9 +228,9 @@ export const NavLinks = [
     link: "/",
   },
   {
-    name: "/my-skills",
+    name: "/ about",
     icon: RxPerson,
-    link: "/my-skills",
+    link: "/about",
   },
   {
     name: "/projectos",
@@ -232,5 +241,41 @@ export const NavLinks = [
     name: "/contact-me",
     icon: RxClipboard,
     link: "/contact-me",
+  },
+  {
+    name: "/experiencia",
+    icon: RxArchive,
+    link: "/experiencia",
+
+  }
+
+];
+export const PurpleImages = [
+  {
+    src: SpaceCity1,
+  },
+  {
+    src: SpaceCity2,
+  },
+  {
+    src: SpaceCity3,
+  },
+  {
+    src: SpaceCity4,
+  },
+];
+
+export const OrangeImages = [
+  {
+    src: SpaceOrange1,
+  },
+  {
+    src: SpaceOrange2,
+  },
+  {
+    src: SpaceOrange3,
+  },
+  {
+    src: SpaceOrange4,
   },
 ];

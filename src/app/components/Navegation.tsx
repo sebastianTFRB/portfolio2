@@ -41,7 +41,7 @@ const Navigation = () => {
   return (
     <div style={{ top: "10px"}} className="fixed z-[50] left-1/2 transform -translate-x-1/2 w-[90%] md:w-[50%] max-h-[10px] rounded-full flex justify-around items-center border bg-black border-white px-4 py-7">
       <h1 className="text-white text-[25px] font-semibold">
-          Webchain{" "}
+          Sebas{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
             {" "}
             Dev{" "}
