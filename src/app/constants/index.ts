@@ -237,11 +237,7 @@ export const NavLinks = [
     icon: RxDashboard,
     link: "/projectos",
   },
-  {
-    name: "/contact-me",
-    icon: RxClipboard,
-    link: "/contact-me",
-  },
+
   {
     name: "/experiencia",
     icon: RxArchive,
