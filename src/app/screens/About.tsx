@@ -10,7 +10,7 @@ const About = () => {
         <div className='container mx-auto px-8'>
         
         <Slider1 />
-        <Slider2 />
+        
         </div>
       </div>
     );
